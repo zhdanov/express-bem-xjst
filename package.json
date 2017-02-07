@@ -1,0 +1,35 @@
+{
+  "name": "express-bem-xjst",
+  "version": "0.0.1",
+  "description": "BEM-XJST engine for ExpressJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voischev/express-bem-xjst.git"
+  },
+  "keywords": [
+    "expressjs-engine",
+    "template-engine",
+    "template",
+    "bemhtml",
+    "bemtree",
+    "bem-xjst",
+    "bem",
+    "view"
+  ],
+  "author": "Ivan Voischev <voischev.ivan@ya.ru>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/voischev/express-bem-xjst/issues"
+  },
+  "homepage": "https://github.com/voischev/express-bem-xjst#readme",
+  "dependencies": {
+    "async": "^2.1.4",
+    "bem-walk": "^1.0.0-1",
+    "bem-xjst": "^8.6.0",
+    "stream-to-array": "^2.3.0"
+  }
+}
